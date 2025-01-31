@@ -37,7 +37,7 @@ cursor = cnx.cursor() #defining a variable called cursor which points to the DB
 #input2:
 cursor.execute("INSERT INTO people VALUES (\'%s\',\'%s\',%i)" % (name,sex,age))
 #adding to the database
-cnx.commit() #commiting for occurance
+cnx.commit() #commiting for occurrence
 cnx.close()
 
 #output : 
