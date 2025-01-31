@@ -4,7 +4,7 @@ Author: Arta Khosravi
 Last Update: Jan. 2025
 '''
 '''
-Now I want to read and save data and information in my database.
+Now, I want to read and save data and information in my database.
 If a row of data is repeated numerously, this is how one deletes it:
  DELETE FROM people WHERE name = 'name' LIMIT 'number';
 '''
